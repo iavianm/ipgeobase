@@ -1,8 +1,6 @@
 # Ipgeobase
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/ipgeobase`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+The gem contains a lookup ('8.8.8.8') method that takes an IP address and returns a metadata object.
 
 ## Installation
 
@@ -22,7 +20,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+ip_data = Ipgeobase.lookup('8.8.8.8')  
+ip_data.city # Ashburn  
+ip_data.country # United States  
+ip_data.countryCode # US  
+ip_data.lat # 39.03  
+ip_data.lon # -77.5
 
 ## Development
 
