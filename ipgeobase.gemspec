@@ -4,7 +4,7 @@ require_relative "lib/ipgeobase/version"
 
 Gem::Specification.new do |spec|
   spec.name = "ipgeobase"
-  spec.version = Ipgeobase::VERSION
+  spec.version = Geobase::VERSION
   spec.authors = ["iavianm"]
   spec.email = ["iavianm@mail.ru"]
 
